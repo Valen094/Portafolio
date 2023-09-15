@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: rgb(168 85 247);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    margin-top: 12px;
+}
