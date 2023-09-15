@@ -3,7 +3,7 @@ import './Body.css'
 import { Product } from '../Product/Product';
 
 // const img = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKMFv8b9L3cMLIrx-HRThsHB2rpK0Iw2gqgvZTVqM&s';
-const img = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Morpho_didius_Male_Dos_MHNT.jpg/250px-Morpho_didius_Male_Dos_MHNT.jpg'
+const img = 'public/img/Valen.jpeg'
 const facebook = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/220px-Logo_de_Facebook.png'
 const twitter = 'https://play-lh.googleusercontent.com/J8k5q78xv4R8Smi4vOE6iUphLvOz0efC-0lzoyGfd0KRUlAv4ekuCtlss6KBN-tMvEw'
 const instagram = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png'
@@ -35,7 +35,7 @@ export const Body = () => {
                 </div>
 
                 <div className='content-text.'>
-                    <img src={img} alt="ButterFly" />
+                    <img src={img} alt="ButterFly" width={300} height={300} />
                 </div>
             </div>
             {/* <hr/> */}
