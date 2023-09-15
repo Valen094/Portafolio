@@ -2,9 +2,9 @@ import React from 'react'
 import './Porduct.css'
 import { Header  } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
-const img3 = './public/img/snagg.png'
-const img1 = './public/img/Netflic.png'
-const img2 = './public/img/cooking.png'
+const img3 = '/img/snagg.png'
+const img1 = '/img/Netflic.png'
+const img2 = '/img/cooking.png'
 
 
 
@@ -13,7 +13,7 @@ export const Product = () => {
     <>
         <Header/>
 
-        <h2 className='title2'>MY PROJECTS</h2>
+        <h2 className='title6'>MY PROJECTS</h2>
 
       <div className='product'>
         <div className='flex items-center justify-center' >
